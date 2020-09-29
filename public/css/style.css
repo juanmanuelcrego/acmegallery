@@ -1,0 +1,274 @@
+.container--nav {
+  height: 68px;
+}
+.container--nav .container--nav--logo {
+  width: 197.39px;
+  height: 38.7px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container--nav--button-login {
+  border-radius: 8px;
+  min-width: 81px;
+  min-height: 37px;
+  cursor: pointer;
+}
+
+.container--header {
+  height: 209px;
+}
+
+.container--search .container--search--input {
+  border-radius: 6px;
+}
+.container--search .container--search--input .container--search--input-transparent {
+  outline: none;
+}
+.container--search .container--search--input .container--search--input-icon {
+  max-width: 2em;
+  cursor: pointer;
+}
+
+.container--gallery .card {
+  max-width: 330px;
+}
+.container--loadMore-text {
+  color: #C23F81;
+  margin-bottom: 30px;
+}
+
+.container--footer {
+  border-top: 6px solid #C23F81;
+  height: 55px;
+}
+.container--footer .container--footer--logo {
+  width: 144.06px;
+  height: 28.27px;
+  margin-right: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container--footer .container--footer--text {
+  color: #fff;
+}
+
+.container--gallery .card .card-body, .container--nav, .container--search, .container--search .container--search--input, .container--loadMore-text, .container--footer {
+  display: flex;
+  flex-flow: row;
+}
+
+.container--gallery {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.container--loadMore-text, .container--footer {
+  justify-content: center;
+}
+
+.container--nav, .container--gallery {
+  justify-content: space-between;
+}
+
+.container--search, .container--search .container--search--input {
+  justify-content: flex-end;
+}
+
+.container--gallery .card .card-body, .container--nav, .container--search, .container--search .container--search--input, .container--loadMore-text, .container--footer {
+  align-content: center;
+}
+
+.container--gallery .card .card-body, .container--nav, .container--search, .container--search .container--search--input, .container--loadMore-text, .container--footer {
+  align-items: center;
+}
+
+.container--nav {
+  background-color: #fff;
+}
+
+.container--nav--button-login {
+  background-color: #C23F81;
+}
+
+.container--search .container--search--input {
+  background-color: #ECECEC;
+}
+
+.container--search .container--search--input .container--search--input-transparent {
+  background: transparent;
+}
+
+.container--gallery .card .card-body {
+  background-color: #d6d5d6;
+}
+
+.container--footer {
+  background-color: #313131;
+}
+
+.container--nav--button-login {
+  text-transform: uppercase;
+}
+
+.container--nav--button-login, .container--header {
+  color: #fff;
+}
+
+.container--search .container--search-text {
+  color: #888888;
+}
+
+.container--nav--button-menu, .container--nav--button-login, .container--search .container--search--input .container--search--input-transparent, .container--gallery .card {
+  border: 0;
+}
+
+.container--header {
+  border: 1px solid;
+}
+
+.container--header {
+  border-color: #707070;
+}
+
+.container--gallery .card .card-img-top {
+  width: 330px;
+  height: 259px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-size: 350px;
+  background-repeat: no-repeat;
+}
+
+.container--gallery .card .card-body {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: #313131;
+  height: 60px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container--gallery .card .card-body h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.container--gallery .card .card-body .card-avatar {
+  width: 46px;
+  height: 46px;
+  background-size: 46px;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.container--nav--button-menu {
+  width: 30px;
+  height: 25px;
+  display: none;
+}
+
+.container--nav .container--nav--logo {
+  background-image: url("../img/logos/logo-nav.png");
+}
+
+.container--header {
+  background: url("../img/header/header-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container--gallery .card:nth-child(1) .card-img-top {
+  background-image: url("../img/cards/card-1-beach.png");
+}
+
+.container--gallery .card:nth-child(2) .card-img-top {
+  background-image: url("../img/cards/card-2-mountain.png");
+}
+
+.container--gallery .card:nth-child(3) .card-img-top {
+  background-image: url("../img/cards/card-3-handSun.png");
+}
+
+.container--gallery .card:nth-child(4) .card-img-top {
+  background-image: url("../img/cards/card-4-sky.png");
+}
+
+.container--gallery .card:nth-child(5) .card-img-top {
+  background-image: url("../img/cards/card-5-bat.png");
+}
+
+.container--gallery .card:nth-child(6) .card-img-top {
+  background-image: url("../img/cards/card-6-music.png");
+}
+
+.container--gallery .card:nth-child(1) .card-body .card-avatar, .container--gallery .card:nth-child(6) .card-body .card-avatar {
+  background-image: url("../img/avatar/avatar-samJerremy.png");
+}
+
+.container--gallery .card:nth-child(2) .card-body .card-avatar, .container--gallery .card:nth-child(4) .card-body .card-avatar {
+  background-image: url("../img/avatar/avatar-mads.png");
+}
+
+.container--gallery .card:nth-child(3) .card-body .card-avatar, .container--gallery .card:nth-child(5) .card-body .card-avatar {
+  background-image: url("../img/avatar/avatar-chandler.png");
+}
+
+.container--footer .container--footer--logo {
+  background-image: url("../img/logos/logo-footer.png");
+}
+
+.container--nav--button-menu {
+  background-image: url("../img/buttons/menu button.svg");
+}
+
+@media screen and (max-width: 576px) {
+  .container--nav .container--nav--logo {
+    width: 121.99px;
+    height: 23.85px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .container--nav--button-menu {
+    display: flex;
+  }
+
+  .container--nav--button-login {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container--header {
+    height: 117px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container--search .container--search-text {
+    display: none;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .container--search .container--search-text {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container--gallery .card .card-img-top {
+    max-width: 315px;
+  }
+  .container--gallery .card .card-body {
+    width: 315px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container--footer .container--footer--logo {
+    display: none;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .container--footer .container--footer--logo {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

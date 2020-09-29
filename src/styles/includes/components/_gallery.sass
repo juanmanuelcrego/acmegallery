@@ -1,0 +1,54 @@
+.container--gallery
+    @extend %row-wrap
+    @extend %justify-content--between
+    .card
+        @extend %no-border
+        max-width: 330px
+        .card-img-top
+            @extend %card-image
+        // Card uno - Playa
+        &:nth-child(1)
+            .card-img-top
+                @extend %img-beach
+            .card-body
+                .card-avatar
+                    @extend %avatar-sam
+        &:nth-child(2)
+            .card-img-top
+                @extend %img-mountain
+            .card-body
+                .card-avatar
+                    @extend %avatar-mads
+        &:nth-child(3)
+            .card-img-top
+                @extend %img-hand
+            .card-body
+                .card-avatar
+                    @extend %avatar-chandler
+        &:nth-child(4)
+            .card-img-top
+                @extend %img-sky
+            .card-body
+                .card-avatar
+                    @extend %avatar-mads
+        &:nth-child(5)
+            .card-img-top
+                @extend %img-bat
+            .card-body
+                .card-avatar
+                    @extend %avatar-chandler
+        &:nth-child(6)
+            .card-img-top
+                @extend %img-music
+            .card-body
+                .card-avatar
+                    @extend %avatar-sam
+        .card-body
+            @extend %card-body
+            .card-avatar
+                @extend %card-avatar
+            
+            
+            
+            
+

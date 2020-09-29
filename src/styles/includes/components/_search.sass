@@ -1,0 +1,21 @@
+.container--search
+    @extend %flex-row
+    @extend %align-content--center
+    @extend %align-items--center
+    @extend %justify-content--end
+    .container--search-text
+        @extend %txt-gray2
+    .container--search--input
+        @extend %flex-row
+        @extend %background-gray-light
+        @extend %align-items--center
+        @extend %align-content--center
+        @extend %justify-content--end
+        border-radius: 06px
+        .container--search--input-transparent
+            @extend %background-transparent
+            @extend %no-border
+            outline: none
+        .container--search--input-icon
+            max-width: 2em
+            cursor: pointer
